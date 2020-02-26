@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "fw-common": [
+        "dist/fw-common"
+      ],
+      "fw-common/*": [
+        "dist/fw-common/*"
+      ],
+      "cube-drafity": [
+        "dist/cube-drafity"
+      ],
+      "cube-drafity/*": [
+        "dist/cube-drafity/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

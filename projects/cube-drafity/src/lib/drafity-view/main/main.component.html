@@ -1,0 +1,6 @@
+<p>main works!</p>
+<input (change)="emit(this.in.value)" #in>
+<a [routerLink]="[{ outlets: {  drafityout: ['inner'] } }]">|_-show inner-_|</a>
+<div style="position:absolute; top: 0; bottom: 0; right: 0; width: 20%; background-color: antiquewhite; ">
+  <router-outlet name="drafityout"></router-outlet>
+</div>

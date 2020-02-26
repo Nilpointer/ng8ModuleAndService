@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/cube-drafity",
+  "lib": {
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "fw-common": "FwCommon",
+      "primeng/fullcalendar": "fullcalendar",
+      "primeng/calendar": "calendar"
+    }
+  }
+}
